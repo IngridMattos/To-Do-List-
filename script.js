@@ -21,7 +21,21 @@ function changeColor() {
   });
 }
 
+function doubleClick() {
+  const daddyli = document.querySelector('#lista-tarefas');
+  daddyli.addEventListener('dblclick', function (evento) {
+    const findeLi = document.querySelector('.completed');
+    if (evento.target.className === 'completed selected') {
+      findeLi.classList.remove('completed');
+      console.log(evento.target.className === 'completed');
+    } else {
+      evento.target.classList.add('completed');
+    }
+  });
+}
+
 window.onload = function () {
   creatingList();
   changeColor();
+  doubleClick();
 };
