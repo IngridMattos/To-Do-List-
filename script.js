@@ -1,14 +1,14 @@
 function creatingList() {
-  const imput = document.querySelector('#texto-tarefa').innerText;
+  const imput = document.querySelector('#texto-tarefa');
   const list = document.querySelector('#lista-tarefas');
-  const criandoLista = document.createElement('li')
   const button = document.querySelector('#criar-tarefa');
-  button.addEventListener('click', function (evento){
-        list.appendChild(criandoLista)
-        criandoLista.innerText = imput;
-    }
+  button.addEventListener('click', function () {
+    const criandoLista = document.createElement('li');
+    list.appendChild(criandoLista);
+    criandoLista.textContent = imput.value;
+    imput.value = '';
   });
 }
 window.onload = function () {
   creatingList();
-}
+};
