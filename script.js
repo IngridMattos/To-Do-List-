@@ -9,6 +9,19 @@ function creatingList() {
     imput.value = '';
   });
 }
+
+function changeColor() {
+  const daddyli = document.querySelector('#lista-tarefas');
+  daddyli.addEventListener('click', function (evento) {
+    const findeLi = document.querySelector('.selected');
+    if (findeLi) {
+      findeLi.classList.remove('selected');
+    }
+    evento.target.classList.add('selected');
+  });
+}
+
 window.onload = function () {
   creatingList();
+  changeColor();
 };
