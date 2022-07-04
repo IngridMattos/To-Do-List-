@@ -50,7 +50,7 @@ function removeFinished() {
     for (let index = 0 ; index < findeLi.length; index += 1) {
       findeLi[index].remove();
     }
-  });
+  }); 
 }
 
 window.onload = function () {
