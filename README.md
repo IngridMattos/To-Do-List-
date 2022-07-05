@@ -1,6 +1,4 @@
-# Boas vindas ao repositório do projeto To-Do List!🚀🚀🚀🚀
-
----
+# Boas vindas ao repositório do projeto To-Do List!🚀🚀
 
 # Sumário
 
@@ -14,8 +12,7 @@
 
 # Sobre:
 
-Este projeto foi desenvolvido como forma de praticar e desenvolver determinadas habilidades do módulo de fundamentos, do curso de formação em programação da Trybe.
-Ele consiste em . Isso ocorre dinamicamente ao clicar. **Este foi o meu segundo projeto criado e o primeiro com algum evento de JavaScript.**
+Este projeto foi desenvolvido como forma de praticar e desenvolver habilidades aprendidas no módulo de fundamentos, do curso de formação em programação da Trybe. Ele consiste em adicionar tarefas - em uma lista - que podem ser riscadas com click duplo e selecionadas com um único click. É possível apagar todos os item de uma só vez e eles são ordenados numericamente. Além disso, quando uma das tarefas é selecionada outra não pode ser ao mesmo tempo.
 
 ## Imagem do projeto:
 
@@ -34,7 +31,9 @@ Ele consiste em . Isso ocorre dinamicamente ao clicar. **Este foi o meu segundo 
 
 - Manipular o DOM
 
-- Manipular o Javascript
+- Manipular CSS 
+
+- Desenvolver eventos em Javascript
   
 # Features:
 
