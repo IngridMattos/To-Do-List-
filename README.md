@@ -2,11 +2,13 @@
 
 # Sumário
 
-- [Sobre](#sobre)
-- [Imagem do projeto](#imagem-do-projeto)
-- [Tecnologias](#tecnologias)
-- [Habilidades](#habilidades)
-- [Features](#features)
+- [Boas vindas ao repositório do projeto To-Do List!🚀🚀](#boas-vindas-ao-repositório-do-projeto-to-do-list)
+- [Sumário](#sumário)
+- [Sobre:](#sobre)
+  - [Imagem do projeto:](#imagem-do-projeto)
+- [Tecnologias:](#tecnologias)
+  - [Habilidades:](#habilidades)
+- [Features:](#features)
 
 ---
 
@@ -16,7 +18,7 @@ Este projeto foi desenvolvido como forma de praticar e desenvolver habilidades a
 
 ## Imagem do projeto:
 
-![]()
+![imagem do to-do list](to-do-list.png)
 
 
 # Tecnologias: 
@@ -37,9 +39,11 @@ Este projeto foi desenvolvido como forma de praticar e desenvolver habilidades a
   
 # Features:
 
-- [x]
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
+- [x] Adicionando título e subtitulo.
+- [x] Adicionando input para escrever as tarefas.
+- [x] A lista deve ser ordenada.
+- [x] Desenvolver botão para criar a tarefa.
+- [x] Desenvolver visualmente forma de selecionar determinada tarefa.
+- [x] Clicar duas vezes em uma tarefa, risca ela.
+- [x] Desenvolver botão para apagar todas as tarefas.
+- [x] Desenvolver botão para remover finalizados.
